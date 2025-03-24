@@ -1,6 +1,6 @@
 # Notifications Service
 
-This is a sample notification service project created for study purposes. The service manages and delivers notifications to users. It is developed using NestJS, Prisma, Jest, and TypeScript, incorporating key concepts of clean code and S.O.L.I.D architecture.
+This project is a sample notification service created for educational purposes. It manages and delivers notifications to users using technologies such as NestJS, Prisma, Jest, SQLite, and TypeScript. The project includes comprehensive tests and emphasizes clean code principles, S.O.L.I.D architecture, and Domain-Driven Design (DDD).
 
 ## Table of Contents
 
