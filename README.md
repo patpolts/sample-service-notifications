@@ -6,9 +6,6 @@ This project is a sample notification service created for educational purposes. 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 - [Tests](#tests)
 
 ## Installation
@@ -24,90 +21,9 @@ npm install
 To start the service, use the following command:
 
 ```bash
-npm start
+npm start:prod  #production
+npm start:dev #development
 ```
-
-## API Endpoints
-
-### GET /notifications
-
-Retrieve a list of notifications.
-
-**Response:**
-
-```json
-[
-    {
-        "id": "1",
-        "message": "Your notification message",
-        "timestamp": "2023-10-01T12:00:00Z"
-    }
-]
-```
-
-### POST /notifications
-
-Create a new notification.
-
-**Request:**
-
-```json
-{
-    "message": "Your notification message"
-}
-```
-
-**Response:**
-
-```json
-{
-    "id": "2",
-    "message": "Your notification message",
-    "timestamp": "2023-10-01T12:00:00Z"
-}
-```
-
-### PUT /notifications/:id
-
-Update an existing notification.
-
-**Request:**
-
-```json
-{
-    "message": "Updated notification message"
-}
-```
-
-**Response:**
-
-```json
-{
-    "id": "1",
-    "message": "Updated notification message",
-    "timestamp": "2023-10-01T12:00:00Z"
-}
-```
-
-### DELETE /notifications/:id
-
-Delete a notification.
-
-**Response:**
-
-```json
-{
-    "message": "Notification deleted successfully"
-}
-```
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Tests
 
